@@ -6,6 +6,8 @@ use egui_extras::{TableBuilder, Column};
 use std::vec;
 use std::process;
 use chrono::Local;
+use message_io::node::{self, NodeEvent};
+use message_io::network::{NetEvent, Transport};
 
 fn main() -> eframe::Result {
     env_logger::init(); // Log to stderr (if you run with `RUST_LOG=debug`).
@@ -125,8 +127,6 @@ impl eframe::App for MyApp {
             });
         }
 
-        if self.ver_popup {
 
-        }
     }
 }

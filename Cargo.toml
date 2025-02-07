@@ -17,6 +17,7 @@ egui_table = "0.3.0"
 egui_extras = "0.30.0"
 chrono = "0.4.39"
 rfd = "0.12"
+message-io = "0.17"
 
 # You only need serde if you want app persistence:
 serde = { version = "1", features = ["derive"] }
